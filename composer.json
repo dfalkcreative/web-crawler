@@ -1,0 +1,29 @@
+{
+    "name": "dfalk/web-crawler",
+    "autoload": {
+        "psr-4": {
+            "Dfalk\\WebCrawler\\": "src/",
+            "App\\": "src/"
+        },
+        "files": ["lib/simple_html_dom.php"]
+    },
+    "authors": [
+        {
+            "name": "Daniel Falk",
+            "email": "danielfalk.composer@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/browsershot": "^3.40",
+        "spectyr/framework": "@dev"
+    },
+    "repositories": {
+        "spectyr": {
+            "type": "path",
+            "url": "../spectyr/framework",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
+}
