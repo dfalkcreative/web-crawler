@@ -99,12 +99,6 @@ $crawler = new Crawler('https://www.iheartjane.com/embed/stores/1549', function 
                 ]);
         }
     }
-
-    // Dump the output.
-    var_dump([
-        'title' => $title,
-        'attributes' => $attributes
-    ]);
 });
 
 // Traverse the site.
