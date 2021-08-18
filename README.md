@@ -17,7 +17,7 @@ $crawler = new Crawler('https://www.example.com/',
     }
 );
 
-// Configure the crawler to only ever move inward / outward, and to enable / disable JS.
+// Configure the crawler to only ever a specific direction, and to enable / deactive JS (faster)
 $crawler->setInward(true)
     ->setJavascript(false)
     ->crawl();
